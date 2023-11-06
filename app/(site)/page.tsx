@@ -18,6 +18,14 @@ export default function Home() {
           />
         </div>
       </Header>
+      <div className="mt-2 mb-7 px-6">
+        <div className="flex justify-between items-center">
+          <h1 className="text-white font-semibold text-2xl">Newest Songs</h1>
+        </div>
+        <div>
+          List of Songs
+        </div>
+      </div>
     </div>
   )
 }
