@@ -5,6 +5,11 @@ import { AiOutlinePlus } from 'react-icons/ai'
 import useAuthModal from '@/hooks/useAuthModal'
 import { useUser } from '@/hooks/useUser'
 import useUploadModal from '@/hooks/useUploadModal'
+import { Song } from '@/types'
+
+interface LibraryProps {
+    songs: Song[]
+}
 
 const Library = () => {
 

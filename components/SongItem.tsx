@@ -30,7 +30,7 @@ const SongItem: React.FC<SongItemProps> = ({
         gap-x-4
         bg-neutral-400/5
         cursor-pointer
-        hover:bg-neutral-400/100
+        hover:bg-neutral-400/10
         transition
         p-3
         "
