@@ -31,7 +31,11 @@ const SearchInput = () => {
     <Input
         placeholder="What do you want to listen to"
         value={value}
-        onChange={(e) => setValue(e.target.value)}
+        onChange={(e) => {
+            const target = e.target as HTMLTextAreaElement;
+            setValue(target.value)
+        }
+        }
     />
   )
 }
